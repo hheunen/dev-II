@@ -2,7 +2,7 @@ import unittest
 from tp7fraction import Fraction
 
 class FractionTestCase(unittest.TestCase):
-    # ... (previous test methods)
+    
 
     def test_numerator_and_denominator(self):
         """Test numerator and denominator properties."""
@@ -126,4 +126,4 @@ class FractionTestCase(unittest.TestCase):
     
 
 if __name__ == '__main__':
-    unittest.main(argv=['first-arg-is-ignored'], exit=False)
+    unittest.main()
